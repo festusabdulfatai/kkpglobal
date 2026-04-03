@@ -200,7 +200,9 @@ div[style*="background:linear-gradient(135deg,#3498db"]:hover{transform:translat
 div[style*="background:linear-gradient(135deg,#e74c3c"]:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(231,76,60,0.3)!important}
 div[style*="background:linear-gradient(135deg,#27ae60"]:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(39,174,96,0.3)!important}
 .social-card{border:3px solid #ddd}
-
+.section-events{background:linear-gradient(135deg,#d4af37,#0a4a24);padding:4rem 0;min-height:50vh;text-align:center;color:#fff}
+.section-events .hero-title{color:#fff;text-shadow:0px 4px 16px rgba(0,0,0,0.5);font-size:clamp(2.5rem,6vw,3.5rem);margin-bottom:1rem;font-weight:900}
+.section-events .hero-desc{color:#fff;font-size:1.15rem;max-width:650px;margin:0 auto;line-height:1.7;font-weight:500}
 /* Reusable section classes */
 .section-hero{background:linear-gradient(135deg,#0a4a24,#0d5a2f);padding:5rem 0;text-align:center;color:#fff}
 .section-hero .hero-logo{max-width:250px;height:auto;margin:0 auto 2rem;filter:brightness(1.1)}
