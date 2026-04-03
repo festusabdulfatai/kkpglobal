@@ -1,0 +1,83 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - Night Prayer -->
+  <defs>
+    <radialGradient id="nightGlow" cx="50%" cy="40%">
+      <stop offset="0%" style="stop-color:#1a4d2e;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0f1419;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#nightGlow)"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="80" r="2" fill="#c19a3d"/>
+  <circle cx="200" cy="120" r="2" fill="#c19a3d"/>
+  <circle cx="150" cy="60" r="1.5" fill="#fff"/>
+  <circle cx="650" cy="90" r="2" fill="#c19a3d"/>
+  <circle cx="700" cy="140" r="1.5" fill="#fff"/>
+  <circle cx="600" cy="70" r="2" fill="#c19a3d"/>
+  <circle cx="300" cy="100" r="1.5" fill="#fff"/>
+  <circle cx="500" cy="110" r="1.5" fill="#fff"/>
+  
+  <!-- Moon -->
+  <circle cx="650" cy="120" r="45" fill="#c19a3d" opacity="0.8"/>
+  <circle cx="665" cy="115" r="45" fill="#0f1419" opacity="0.3"/>
+  
+  <!-- Ground -->
+  <rect y="480" width="800" height="120" fill="#0a0f11"/>
+  
+  <!-- Man kneeling alone in prayer - Intimate moment -->
+  <g transform="translate(400, 360)">
+    <!-- Shadow -->
+    <ellipse cx="0" cy="110" rx="50" ry="12" fill="#000" opacity="0.4"/>
+    
+    <!-- Body -->
+    <circle cx="0" cy="-35" r="28" fill="#2d5a3d"/>
+    <rect x="-22" y="-7" width="44" height="70" rx="8" fill="#2d5a3d"/>
+    
+    <!-- Legs kneeling -->
+    <rect x="-26" y="63" width="22" height="50" rx="6" fill="#2d5a3d"/>
+    <rect x="4" y="63" width="22" height="50" rx="6" fill="#2d5a3d"/>
+    
+    <!-- Arms raised in worship -->
+    <rect x="-42" y="-65" width="16" height="65" rx="5" fill="#2d5a3d" transform="rotate(-35 -34 -32.5)"/>
+    <rect x="26" y="-65" width="16" height="65" rx="5" fill="#2d5a3d" transform="rotate(35 34 -32.5)"/>
+    
+    <!-- Hands -->
+    <ellipse cx="-45" cy="-75" rx="8" ry="10" fill="#1a4d2e" transform="rotate(-35 -45 -75)"/>
+    <ellipse cx="45" cy="-75" rx="8" ry="10" fill="#1a4d2e" transform="rotate(35 45 -75)"/>
+  </g>
+  
+  <!-- Light from heaven -->
+  <g opacity="0.4">
+    <polygon points="400,0 350,350 450,350" fill="#c19a3d"/>
+  </g>
+  <g opacity="0.2">
+    <polygon points="400,0 300,360 500,360" fill="#fff"/>
+  </g>
+  
+  <!-- Dove/Spirit symbol above -->
+  <g transform="translate(400, 180)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#fff"/>
+    <path d="M-8,0 Q-20,-10 -25,-8 L-12,-2 Z" fill="#fff"/>
+    <path d="M8,0 Q20,-10 25,-8 L12,-2 Z" fill="#fff"/>
+    <ellipse cx="0" cy="-15" rx="15" ry="20" fill="#c19a3d" opacity="0.3"/>
+  </g>
+  
+  <!-- Open Bible in front of man -->
+  <g transform="translate(400, 470)">
+    <rect x="-40" y="-8" width="80" height="16" rx="2" fill="#8b6914"/>
+    <rect x="-38" y="-6" width="36" height="12" fill="#f5f5dc"/>
+    <rect x="2" y="-6" width="36" height="12" fill="#f5f5dc"/>
+    <line x1="-20" y1="-4" x2="-20" y2="4" stroke="#999" stroke-width="0.5"/>
+    <line x1="-28" y1="-4" x2="-28" y2="4" stroke="#999" stroke-width="0.5"/>
+    <line x1="10" y1="-4" x2="10" y2="4" stroke="#999" stroke-width="0.5"/>
+    <line x1="20" y1="-4" x2="20" y2="4" stroke="#999" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Scripture -->
+  <text x="400" y="570" font-family="Georgia, serif" font-size="20" fill="#c19a3d" 
+        text-anchor="middle" font-style="italic">
+    "He teacheth my hands to war... thy gentleness hath made me great"
+  </text>
+</svg>
