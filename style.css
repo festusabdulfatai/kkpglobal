@@ -200,3 +200,33 @@ div[style*="background:linear-gradient(135deg,#3498db"]:hover{transform:translat
 div[style*="background:linear-gradient(135deg,#e74c3c"]:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(231,76,60,0.3)!important}
 div[style*="background:linear-gradient(135deg,#27ae60"]:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(39,174,96,0.3)!important}
 .social-card{border:3px solid #ddd}
+
+/* Reusable section classes */
+.section-hero{background:linear-gradient(135deg,#0a4a24,#0d5a2f);padding:5rem 0;text-align:center;color:#fff}
+.section-hero .hero-logo{max-width:250px;height:auto;margin:0 auto 2rem;filter:brightness(1.1)}
+.section-hero .hero-title{font-size:clamp(2.5rem,8vw,4.5rem);font-weight:900;margin:0 0 1rem;line-height:1.1;color:#d4af37;letter-spacing:-1px}
+.section-hero .hero-subtitle{font-size:1.3rem;font-weight:600;max-width:750px;margin:0 auto 1.5rem;line-height:1.7;color:#f0e8d6}
+.section-hero .hero-desc{font-size:1.05rem;max-width:800px;margin:0 auto 2rem;line-height:1.8;color:#f3f2ef}
+.section-hero .hero-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.section-hero .hero-actions .button{background:#d4af37;color:#000;border:3px solid #d4af37;font-weight:700;padding:1rem 2rem;font-size:1.05rem}
+.section-hero .hero-actions .button.alt{background:transparent;color:#d4af37}
+
+.section-mission{background:#f8f5ef;padding:3rem 0;margin:2rem 0}
+.section-mission .box{background:linear-gradient(135deg,#fff9f0,#fffef9);border:3px solid #d4af37;border-radius:1.5rem;padding:2.5rem;box-shadow:0 8px 20px rgba(0,0,0,0.08);max-width:900px;margin:0 auto}
+.section-mission .box p{font-size:1.1rem;line-height:1.8;color:#111;margin:0;text-align:center}
+
+.section-core-message{background:linear-gradient(135deg,#fff9f0,#f5f0f0);padding:3rem 0;margin:2rem 0}
+.section-core-message .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;max-width:1200px;margin:0 auto}
+.section-core-message .core-card{background:linear-gradient(135deg,#0a4a24,#0d5a2f);padding:2.5rem;border-radius:1rem;box-shadow:0 8px 20px rgba(10,74,36,0.15);color:white;text-align:center;border-top:4px solid #d4af37}
+.section-core-message .core-card.alt{background:linear-gradient(135deg,#0d5a2f,#0a4a24)}
+.section-core-message .core-card h3{font-size:1.3rem;margin:0 0 1rem 0}
+.section-core-message .core-card p{font-size:1rem;line-height:1.6;margin:0;opacity:0.95}
+
+.section-quick-actions{background:linear-gradient(135deg,#0a4a24,#0d5a2f);padding:3rem 0;margin:2rem 0}
+.section-quick-actions .quick-cta{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem}
+.section-quick-actions .quick-card{padding:2rem;border-radius:1rem;text-align:center;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,0.35);transition:transform .3s,box-shadow .3s;cursor:pointer;color:inherit}
+.section-quick-actions .quick-card:hover{transform:translateY(-5px);box-shadow:0 12px 28px rgba(0,0,0,0.45)}
+.section-quick-actions .quick-card.alt{background:linear-gradient(135deg,#0a4a24,#0d5a2f);border:2px solid #d4af37}
+.section-quick-actions .quick-card.gold{background:linear-gradient(135deg,#d4af37,#e8c547);color:#0a4a24}
+.section-quick-actions .quick-card h3{font-size:1.4rem;margin:0 0 0.5rem 0}
+.section-quick-actions .quick-card p{margin:0;font-size:0.95rem}
