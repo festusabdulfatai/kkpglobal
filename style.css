@@ -2,8 +2,8 @@
 :root{--bg:#000;--fg:#fff;--gold:#d4af37;--gray:#f4f4f4;--max:1080px}
 body{font-family:system-ui, sans-serif;background:#fff;color:#111;line-height:1.5;min-height:100vh}
 .container{width:min(92vw,var(--max));margin:0 auto;padding:2rem 0}
-.site-header{background:rgba(0,0,0,.4);color:#fff;position:sticky;top:0;z-index:100;border-bottom:3px solid var(--gold);-webkit-backdrop-filter: blur(9px);backdrop-filter: blur(9px);transition:padding 0.25s,background 0.25s}
-.site-header.smaller{padding:0.4rem 0;background:rgba(0,0,0,.7)}
+.site-header{background:#000;color:#fff;position:sticky;top:0;z-index:100;border-bottom:3px solid var(--gold);-webkit-backdrop-filter: blur(9px);backdrop-filter: blur(9px);transition:padding 0.25s,background 0.25s}
+.site-header.smaller{padding:0.4rem 0;background:#000}
 .site-header .container{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 0;transition:padding 0.25s}
 .brand{font-weight:900;color:var(--gold);text-decoration:none;font-size:1.4rem;letter-spacing:1px;display:flex;align-items:center;gap:0.5rem}
 .brand img{height:34px;width:auto;border-radius:5px;}
